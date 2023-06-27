@@ -16,12 +16,38 @@
   }
 }
 
+@media(max-width: 1920px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 1566px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 1200px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media(max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.header {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 39.3%, rgba(0, 0, 0, 0) 122.38%);
+  backdrop-filter: blur(5px);
 }
